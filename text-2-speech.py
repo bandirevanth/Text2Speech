@@ -10,9 +10,9 @@ engine.setProperty('rate', 160)
 engine.setProperty('volume', 2)
 engine.setProperty('voice', voices[1].id)
 
-# Modify the value to make it say what you want. :)
+# Modify the value to make it say what you want :)
 engine.say("""
-Tests
+Hello, World!
 """)
 
 engine.runAndWait()
